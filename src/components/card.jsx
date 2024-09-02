@@ -86,7 +86,7 @@ const Card = ({ Data, title = "", template = "" }) => {
                                       <b>{product?.name}</b>
                                   </div>
                                   <div id="eidcard-desc">
-                                  We take raw organic coconuts(among the most nutritious foods) and carefully cold press them (never refine, bleach, hydrogenate, or deodorize) to lock in all the aroma and nutrition.  Organic extra virgin coconut oil in Pakistan that contains fresh coconut flavor and sweet aroma. Best for...
+                                  We take raw organico coconuts(among the most nutritious foods) and carefully cold press them (never refine, bleach, hydrogenate, or deodorize) to lock in all the aroma and nutrition.  Organic extra virgin coconut oil in Pakistan that contains fresh coconut flavor and sweet aroma. Best for...
 
                                   </div>
                                   <div id="eidcard-price">
