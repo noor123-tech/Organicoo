@@ -1,31 +1,24 @@
-import React, { useEffect } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import { SliderArray } from "../Constant/Product";
+import React, { useState, useEffect } from 'react'
+import { SliderArray } from '../Constant/Product';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
-const SimpleSlider = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+function FoodCategoriesSlider() {
   return (
-    <div className="slider-container">
-      <Slider {...settings}>
-        {SliderArray && SliderArray?.length > 0 && SliderArray.map((item)=>{
-          return(
-            <div>
-              <h1>Slider 1</h1>
-              <img src={item} alt="" style={{objectFit: "cover"}} />
-            </div>
-          )
-        })}
-      </Slider>
-    </div>
-  );
+    <Carousel>
+      {SliderArray && SliderArray.length > 0 && SliderArray.map((item, index) => {
+        return (
+          <div style={{display:'flex',justifyContent:'center',width:'100%'}}>
+          <div style={{maxWidth:'1310px',width:'100%'}}>
+            <img src={item} style={{width: "100%", height: "500px", objectFit: "cover"}} />
+            <p className="legend">Legend 1</p>
+          </div>
+
+          </div>
+        )
+      })}
+    </Carousel>
+  )
 }
 
-export default SimpleSlider
+export default FoodCategoriesSlider
