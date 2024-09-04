@@ -15,7 +15,7 @@ function Home() {
     return (
         <>
 
-            {/* <SimpleSlider /> */}
+            <SimpleSlider />
 
 
             <ProductPage title={"Best Organic Products in Pakistan"} Desc={"We don’t think that organic has to come at an expensive price tag. That’s why we wanted to give you a chance to live a healthy, clean life by using organic products and feel good about it."} Product={Product} />

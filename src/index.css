@@ -2156,7 +2156,84 @@ padding: 20px;
  
 }
 
-  /*  */
+.thumbs.animated, .carousel-status, .slide .legend{
+  display: none !important;
+}
+
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot{
+  background-color: #1B7C35 !important;
+  color: #000000;
+}
+.carousel .control-dots .dot {
+  background-color: #CECECE !important;
+}
+.carousel.carousel-slider .control-arrow{
+  background-color: white !important;
+  color: whitesmoke;
+}
+.control-arrow .control-next{
+  background-color: white !important;
+}
+.control-arrow .control-prev{
+  background-color: white !important;
+
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid black !important;
+
+  /* border-top: 8px solid #1B7C35 !important; */
+  /* border-bottom: 8px solid #1B7C35 !important; */
+
+}
+.carousel .control-next.control-arrow   {
+  right: 10px !important;
+}
+.carousel .control-prev.control-arrow{
+  left: 10px !important;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid black !important;
+  /* border-top: 8px solid #1B7C35 !important; */
+  /* border-bottom: 8px solid #1B7C35 !important; */
+
+}
+/* .carousel .control-arrow:focus, .carousel .control-arrow:hover {
+  opacity: 1 !important;
+ 
+} */
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+  opacity: 1 !important;
+}
+.carousel.carousel-slider .control-arrow:hover{
+  background-color: green !important;
+
+}
+
+.control-next,.control-prev {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: 2px solid black !important;
+  background-color: white !important;
+  color: #000000 !important;
+  width: 35px !important;
+  height: 35px !important;
+  padding: 0px !important;
+/* padding: 10px !important; */
+  /* padding: -25px !important; */
+  border-radius: 50%;
+}
+.carousel.carousel-slider .control-arrow{
+  top:40% !important;
+}
+.carousel .control-disabled.control-arrow{
+  display: none !important;
+}
+
+.carousel-slider{
+  max-width: 1350px;
+}
+ /*  */
 @media screen and (max-width: 750px) {
   #searchbar, .wishlist, #number{
     display: none;

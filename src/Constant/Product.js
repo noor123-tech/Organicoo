@@ -66,8 +66,18 @@ import Slider6 from '../Assets/images/slider-img-6.jpg'
 
 
 // Homepage Slider Array 
+
+
+// slider orginal image
+import slider1 from '../Assets/images/SLIDER1.jpg'
+import slider2 from '../Assets/images/SLIDER2.jpg'
+import slider3 from '../Assets/images/SLIDER3.jpg'
+import slider4 from '../Assets/images/SLIDER4.jpg'
+import slider5 from '../Assets/images/SLIDER5.jpg'
+
+// slider original image end
 export const SliderArray = [
-    Slider1, Slider2, Slider3, Slider4, Slider5, Slider6
+    slider1, slider2, slider3, slider4, slider5
 ]
 
 // organic skincare ends from here
